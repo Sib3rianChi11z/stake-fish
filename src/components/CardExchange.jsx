@@ -27,7 +27,7 @@ export default function CardExchange({ props }) {
                   Trust Rank: #{props.trust_score_rank}
                 </li>
                 <li className="list-group-item bg-light">
-                  Country of Origin: {props.country}
+                  Country of Origin: {props.country ? props.country : "Unknown"}
                 </li>
                 <li className="list-group-item bg-light">
                   Year Established:{" "}

@@ -11,7 +11,7 @@ export default function Card({ props }) {
       </div>
       <ul className="list-group list-group-flush">
         <li className="list-group-item bg-light">
-          Country of Origin: {props.country}
+          Country of Origin: {props.country ? props.country : "Unknown"}
         </li>
       </ul>
       <div className="card-body">
