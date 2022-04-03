@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import { Link } from "react-router-dom"
+import { getTopExchanges } from "./api/coingecko"
+import { useEffect, useState } from "react"
+import Card from "./components/Card.jsx"
 
 function App() {
+  const [exchanges, setExchanges] = useState()
+
+  useEffect(() => {
+    getTopExchanges().then((response) => setExchanges(response)).catch()
+
+  }, []);
+
+
+  function exchangeCards() {
+    return exchanges.map((item, i) => {
+      return <Card key={item.id} props={item} />
+    })
+
+
+  }
+
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Top 10 Crypto Exchanges</h1>
+      <div className="cardContainer">{exchanges && exchangeCards()}</div>
+      <Link to="/exchanges">Exchanges</Link>
     </div>
   );
 }
