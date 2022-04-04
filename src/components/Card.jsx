@@ -1,3 +1,4 @@
+// Card for main page top 10 exchanges
 export default function Card({ props }) {
   return (
     <div className="card cardMain text-dark bg-light mb-3">

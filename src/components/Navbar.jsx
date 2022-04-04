@@ -1,3 +1,4 @@
+//Navbar with Stake.Fish logo and link to homepage.
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light ">

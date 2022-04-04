@@ -25,3 +25,4 @@ export const getExchangeById = (id) => {
 
   return axios(config).then(onGlobalSuccess).catch(onGlobalError)
 }
+//This file is used to do an API call to coingecko.com using AJAX to GET top 10 crypto exchanges and a specific exchange in more details.

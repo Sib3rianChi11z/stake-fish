@@ -1,3 +1,4 @@
+//This is a card for the second page with conditional statements for Social Media, Description, Year and Country of Origin because that information is not available for all the exchanges.
 export default function CardExchange({ props }) {
   return (
     <div className="card  bg-light cardExchange mb-3">
