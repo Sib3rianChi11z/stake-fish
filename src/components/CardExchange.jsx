@@ -82,29 +82,3 @@ export default function CardExchange({ props }) {
     </div>
   );
 }
-
-// When the user clicks on an exchange, show its details on a separate page. Included in those details should be the name, country, trust rank, logo, year of establishment, social media links, description, and a back-to-main-page button.
-
-// alert_notice: ""
-// centralized: true
-// country: "Cayman Islands"
-// description: ""
-// facebook_url: "https://www.facebook.com/binanceexchange"
-// has_trading_incentive: false
-// image: "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250"
-// name: "Binance"
-// other_url_1: "https://medium.com/binanceexchange"
-// other_url_2: "https://steemit.com/@binanceexchange"
-// public_notice: ""
-// reddit_url: "https://www.reddit.com/r/binance/"
-// slack_url: ""
-// status_updates: (7) [{…}, {…}, {…}, {…}, {…}, {…}, {…}]
-// telegram_url: ""
-// tickers: (100) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
-// trade_volume_24h_btc: 400450.3988521774
-// trade_volume_24h_btc_normalized: 400450.3988521774
-// trust_score: 10
-// trust_score_rank: 1
-// twitter_handle: "binance"      https://twitter.com/
-// url: "https://www.binance.com/"
-// year_established: 2017

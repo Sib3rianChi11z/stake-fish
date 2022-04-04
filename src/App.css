@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -38,52 +41,18 @@
   }
 
 }
-
-
-/* .exchangeCard{ 
-  padding: 2rem;
-  background-color: rgb(11, 151, 121);
-  margin: .5rem;
-  font-weight: 1000;
-  border-radius: .25rem;
-  
-} */
-
-
-/* .float-child {
-  width: 50%;
-  float: left;
-  padding: 20px;
-  border: 2px solid red;
-}   */
-
-/* .float-container  {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1px;
-  padding: 2rem;
-  background-color: rgb(11, 151, 121);
-  margin: .5rem;
-  font-weight: 1000;
-  border-radius: .25rem;
-  max-width: 20rem;
-  
+.cardMain{
+   width: 18rem;
+   margin: 1rem; 
 }
-.image-container {
-  display: inline-block;
-  
-  
-} */
 .cardContainer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 1.5rem;
+  max-width: 100rem;
 }
-/* .cardImage{
-  height: 50px;
-  width: 50px;
-} */
+
 .title{
   font-size: x-large;
   font-weight: 1000;
