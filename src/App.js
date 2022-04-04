@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <h1>Top 10 Crypto Exchanges</h1>
       <div className="cardContainer">{exchanges && exchangeCards()}</div>
-      <Link to="/exchanges">Exchanges</Link>
+
     </div>
   );
 }
