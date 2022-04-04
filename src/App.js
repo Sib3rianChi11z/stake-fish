@@ -1,5 +1,4 @@
 import './App.css';
-import { Link } from "react-router-dom"
 import { getTopExchanges } from "./api/coingecko"
 import { useEffect, useState } from "react"
 import Card from "./components/Card.jsx"
